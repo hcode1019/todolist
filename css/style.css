@@ -1,0 +1,16 @@
+.hidden {
+  display: none;
+}
+#quote {
+  font-size: 20px;
+  font-weight: 600;
+}
+#quote span {
+  display: flex;
+}
+#quote span:last-child {
+  font-size: 16px;
+}
+#quote span:last-child:before {
+  content: "-";
+}
